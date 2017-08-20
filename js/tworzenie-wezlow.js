@@ -5,4 +5,6 @@ var newElement = document.createElement('p');
 
 var newElementContent = document.createTextNode('to jest nowy paragraf');
 
+newElement.appendChild(newElementContent);
+
 istniejacyWezel.appendChild(newElement);
